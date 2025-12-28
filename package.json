@@ -1,0 +1,15 @@
+{
+  "name": "impds-api",
+  "version": "1.0.0",
+  "description": "IMPDS Deduplication API",
+  "main": "impds_aa.js",
+  "scripts": {
+    "start": "node impds_aa.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "request": "^2.88.2",
+    "cheerio": "^1.0.0-rc.12",
+    "crypto-js": "^4.2.0"
+  }
+}
