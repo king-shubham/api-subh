@@ -6,7 +6,7 @@ const fs = require('fs');
 const CryptoJS = require('crypto-js');
 
 const app = express();
-const PORT = 3000;
+const port = process.env.PORT || 10000
 
 const ENCRYPTION_KEY = "nic@impds#dedup05613";
 
